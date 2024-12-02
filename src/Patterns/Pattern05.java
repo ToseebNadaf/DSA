@@ -9,7 +9,7 @@ public class Pattern05 {
         int value = input.nextInt();
 
         for (int i = 1; i <= value; i++) {
-            for (int j = value; j >= i; j--) {
+            for (int j = 1; j <= (value - i + 1); j++) {
                 System.out.print("*");
             }
 

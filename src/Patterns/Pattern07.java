@@ -9,7 +9,7 @@ public class Pattern07 {
         int value = input.nextInt();
 
         for (int i = 0; i < value; i++) {
-            for (int j = value; j >= i; j--) {
+            for (int j = 0; j <= (value - i - 1); j++) {
                 System.out.print(" ");
             }
 
@@ -17,7 +17,7 @@ public class Pattern07 {
                 System.out.print("*");
             }
 
-            for (int j = value; j >= i; j--) {
+            for (int j = 0; j <= (value - i - 1); j++) {
                 System.out.print(" ");
             }
 

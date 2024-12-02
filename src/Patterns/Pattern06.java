@@ -9,8 +9,8 @@ public class Pattern06 {
         int value = input.nextInt();
 
         for (int i = 1; i <= value; i++) {
-            for (int j = value; j >= i; j--) {
-                System.out.print(value - j + 1 + " ");
+            for (int j = 1; j <= (value - i + 1); j++) {
+                System.out.print(j);
             }
 
             System.out.println();
