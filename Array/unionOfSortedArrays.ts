@@ -11,8 +11,8 @@ const unionOfSortedArrays = (a: number[], b: number[]): number[] => {
     result.add(value);
   }
 
-  return Array.from(result).sort((a,b) => (a - b));
-}
+  return Array.from(result).sort((a, b) => a - b);
+};
 
 // Optimal Solution -
 
