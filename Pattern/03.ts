@@ -1,12 +1,12 @@
-const printNumbers = (rows: number) => {
-  for (let i = 1; i <= rows; i++) {
-    let row = "";
-    for (let j = 1; j <= i; j++) {
-      row += j + "";
+const printTriangle = (num: number) => {
+  for (let row = 1; row <= num; row++) {
+    let star = "";
+    for (let cst = 1; cst <= row; cst++) {
+      star += "*";
     }
 
-    console.log(row.trim());
+    console.log(star);
   }
 };
 
-printNumbers(6);
+printTriangle(6);
